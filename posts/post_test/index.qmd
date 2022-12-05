@@ -1,0 +1,40 @@
+---
+title: "L’effet des chocs conjoncturels sur le déficit commercial français"
+author: "Raul Sampognaro"
+date: "2022-11-09"
+categories: [conjoncture, commerce international, déficit commercial]
+image: "image.jpg"
+---
+
+L'économie française fait face à une multitude de chocs ayant un fort impact sur les perspectives de croissance du PIB[^1]. Au-delà de la crise du pouvoir d'achat, ces chocs se sont traduits par la dégradation du solde extérieur français au point qu'au troisième trimestre 2022 la France a connu son plus fort déficit commercial depuis 1949 selon les comptes nationaux publiés par l'Insee[^2] : le solde commercial s'établit à -- 4,6 % du PIB. Selon les données disponibles au deuxième trimestre 2022, le besoin de financement de la nation vis-à-vis du reste du monde (grandeur qui tient compte notamment des flux de revenus) atteint quant à lui 2,9 % de la valeur ajoutée (VA) française. Ce chiffre n'a été dépassé que deux fois depuis 1949 : au troisième trimestre 1982 (4,5 % de la VA) et à la suite du premier confinement de 2020 (4,3 % de la VA au deuxième trimestre 2020 ; voir graphique).
+
+[^1]: Département analyse et prévision de l'OFCE, sous la direction d'Éric Heyer et Xavier Timbeau, 2022, « Du coup de chaud au coup de froid : perspectives 2022-2023 pour l'économie mondiale », OFCE Policy brief, n° 109, 12 octobre.
+
+[^2]: Il est possible de calculer le solde commercial grâce aux données douanières ou de la balance des paiements. Des différences de champ ou de méthodologie peuvent expliquer des divergences sur les chiffres publiés. La comptabilité nationale offre l'avantage de réaliser des comparaisons sur longue période avec une méthodologie homogène.
+
+![Fig1](figures/fig_1.jpg)
+
+Avant le déclenchement de la pandémie de Covid-19, le déficit commercial était de 1 % du PIB. La dégradation de plus de 3 points de PIB s'explique en partie par les évolutions des prix. Depuis 2019 les importations françaises se sont renchéries de 28 % tandis que le déflateur des exportations a augmenté de 23 % [^3]. Selon les prévisions de l'Insee, la dégradation des termes de l'échange attendue pour 2022 devrait amputer le revenu disponible des agents nationaux de 1,5 point de PIB au cours de l'année en cours[^4]. Le creusement de la balance commerciale ne s'explique pas exclusivement par l'évolution défavorable des prix. En volume, les exportations sont en retrait de 3 % au troisième trimestre 2022 par rapport à un trimestre moyen de 2019 alors que les importations sont plus fortes de 3 points.
+
+[^3]: Pour plus de détails sur ce que la comptabilité nationale nous apprend sur la dynamique de prix récente, voir Amoureux, Carnot et Laurent, 2022, «[Ce que nous enseignent les déflateurs en comptabilité nationale](https://blog.insee.fr/inflation-les-deflateurs-en-comptabilite-nationale/)», Le blog de l'Insee.
+
+[^4]: Voir Amoureux, Carnot et Laurent, 2022, «[Termes de l'échange et revenu intérieur réel: mesurer le pouvoir d'achat de la nation](https://blog.insee.fr/termes-echange-revenu-interieur-et-pouvoir-d-achat/)», Le blog de l'Insee.
+
+L'objectif de ce billet de blog est de quantifier la contribution respective des variations de prix et des volumes à l'évolution du déficit commercial entre 2019 et le troisième trimestre 2022. Les contributions seront calculées au niveau A17 de la nomenclature des comptes nationaux. La baisse des exportations totales mentionnée masque des évolutions divergentes entre les branches pendant la période. La plupart des branches ont augmenté leurs ventes à l'étranger en volume. L'évolution du chiffre global reflète en grande partie la chute des exportations de produits pour lesquels la France disposait d'une forte spécialisation : la fabrication des matériels de transport (-26 %) et la consommation des touristes étrangers sur le territoire français (-7 %).
+
+Pour calculer les déterminants des évolutions des prix et des volumes aux évolutions de la variable (soit les exportations, soit les importations) pour chaque produit entre 2019 et le troisième trimestre 2022 la formule suivante est mobilisée :
+
+```{=tex}
+\begin{equation}
+\Delta X_{i} = X_{i}^{2019} \;. \Delta Volume\%_{i} + X_{i}^{2019} \;. \Delta Déflateur\%_{i}
+\end{equation}
+```
+La dégradation de 24,3 milliards d'euros du solde commercial s'explique majoritairement par les évolutions des prix (13,4 milliards d'euros s'expliquent par ce facteur) (Tableau). Sans surprise, l'effet vient du renchérissement des produits énergétiques et raffinés importés (net des exportations, l'effet est de 19,0 milliards d'euros). Cette dynamique est atténuée par la hausse du prix des échanges de services de transport (+3,4 milliards d'euros).
+
+![Fig2](figures/fig_2.jpg)
+
+Si les termes de l'échange ont un effet quantitatif négatif, l'évolution des volumes aggrave le déficit de 10,9 milliards d'euros supplémentaires. L'essentiel de la baisse s'explique par les évolutions observées dans les échanges de matériels de transport (-5,0 milliards)\[5\]. Le maintien d'un taux d'investissement élevé explique une dégradation supplémentaire du solde du fait des volumes échangés en biens d'équipement (-3,2 milliards). Le volume des échanges de produits énergétiques contribue lui aussi négativement au solde (-1,7 milliard) probablement en lien avec le remplissement rapide des stocks de gaz et les évolutions spécifiques observées dans l'électricité; mais à ce niveau de la nomenclature il n'est pas possible de distinguer ces deux effets. Encore une fois, les volumes échangés de services de transport compensent partiellement ces évolutions (+2,0 milliards).
+
+La contribution du tourisme international mérite un commentaire spécifique. La consommation des étrangers sur le territoire français serait quasiment stable au troisième trimestre 2022 par rapport à 2019 (+0,4 milliard). Cette évolution masque une baisse du volume (-1,0 milliard), plus que compensée par l'évolution du prix. Dans le contexte post-Covid, les dépenses des Français à l'étranger reculent encore plus fortement (-0,6 milliard dont une baisse des volumes de -1,6 milliard). Alors que le tourisme est plutôt un domaine où la France est spécialisée et dispose d'une balance historiquement en surplus, le solde touristique contribue toujours positivement à améliorer la balance commerciale à l'issue du troisième trimestre 2022, mais avant tout sous l'effet notable d'un ajustement plus marqué des importations que des exportations.
+
+Le déficit record de la balance commerciale observé au troisième trimestre 2022 constitue un point d'alerte pour l'économie française. Cette évolution s'explique en grande partie par l'évolution défavorable des prix énergétiques. Toutefois, pour le moment, les volumes échangés, loin d'atténuer le déficit, l'aggravent. En particulier, la situation est particulièrement dégradée dans les matériels de transport. Ces chocs ont été en partie atténués par la contribution des ventes de services de transport au reste du monde. La plus grande incertitude pour le futur reste de savoir si ces chocs sont temporaires ou permanents. Ceci détermine l'ampleur de l'ajustement qui sera nécessaire pour diminuer ce déséquilibre vis-à-vis du reste du monde, notamment s'il faut financer une facture énergétique durablement plus onéreuse.
