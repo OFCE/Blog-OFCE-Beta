@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Blog de l'OFCE, une proposition basé sur quarto"
+  sidebar: 
+    search: true
   navbar:
     logo: ofce.png
     right:
