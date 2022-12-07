@@ -1,6 +1,10 @@
 ---
 title: "L’effet des chocs conjoncturels sur le déficit commercial français"
-author: "Raul Sampognaro"
+author:
+  - name: Raul Sampognaro
+    url: https://www.ofce.sciences-po.fr/pages-chercheurs/page.php?id=109
+    affiliation: OFCE 
+    affiliation-url: https://www.ofce.sciences-po.fr/
 date: "2022-11-09"
 categories: [conjoncture, commerce international, déficit commercial]
 image: "image.jpg"
