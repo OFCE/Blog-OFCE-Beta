@@ -1,5 +1,5 @@
 ---
-title: "Blog OFCE beta"
+title: "Le de Blog OFCE (beta)"
 listing:
   contents: "posts/*/index.qmd"
   sort: "date desc"
