@@ -1,6 +1,7 @@
 ---
 title: "Le blog OFCE (beta)"
 listing:
+  feed: true
   contents: "posts/*/index.qmd"
   sort: "date desc"
   type: default
