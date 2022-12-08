@@ -3,20 +3,27 @@ project:
   output-dir: docs
 
 website:
-  title: "Blog de l'OFCE, une proposition basé sur quarto"
+  title: "made in Quarto"
   sidebar: 
     search: true
   navbar:
     logo: ofce.png
     right:
-      - about.qmd
+      - icon: rss
+      - href: https://www.ofce.sciences-po.fr/
+      - icon: rss
+        href: index.xml
       - icon: github
         href: https://github.com/OFCE/Blog-OFCE-Beta
       - icon: twitter
         href: https://twitter.com/ofceparis
+      - icon: linkedin
+        href: https://www.linkedin.com/company/le-golvan/?originalSubdomain=fr
 format:
   html:
-    theme: litera
+    theme:
+      light: litera
+      dark: [litera, theme-dark.scss]
     css: styles.css
 
 editor: visual
