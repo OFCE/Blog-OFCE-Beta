@@ -1,0 +1,16 @@
+---
+title: "The OFCE Blog (beta)"
+listing:
+  feed: true
+  contents: "posts/*/index.qmd"
+  fields: [image, date, title, subtitle, categories, author, reading-time]
+  sort: "date desc"
+  type: default
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+format:
+  html:
+    mainfont: futura
+---
