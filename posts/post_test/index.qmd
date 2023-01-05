@@ -7,6 +7,7 @@ author:
     affiliation-url: https://www.ofce.sciences-po.fr/
 date: "2022-11-09"
 categories: [conjoncture, commerce international, déficit commercial]
+subtitle: "L'économie française fait face à une multitude de chocs ayant un fort impact sur les perspectives de croissance du PIB. Au-delà de la crise du pouvoir d'achat, ces chocs se sont traduits par la dégradation du solde extérieur français au point qu'au troisième trimestre 2022 la France a connu son plus fort déficit commercial depuis 1949 selon les comptes nationaux publiés par l'Insee : le solde commercial s'établit à -- 4,6 % du PIB."
 image: "image.jpg"
 ---
 

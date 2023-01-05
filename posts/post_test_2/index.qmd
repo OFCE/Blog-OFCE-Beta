@@ -1,10 +1,23 @@
 ---
 title: "Inflation en Europe : les conséquences sociales de la guerre en Ukraine"
-author: "Guillaume Allègre, François Geerolf, Xavier Timbeau"
 date: "2022-07-05"
+subtitle: "Quel est l'impact de la hausse des prix à la suite de la guerre en Ukraine sur le pouvoir d'achat des ménages au sein de l'Union Européenne ? C'est la question à laquelle nous tentons d'apporter quelques éléments de réponse sur ce site Social Impact of the War in Ukraine."
 categories: [inflation, ukraine, europe]
 image: "image.jpeg"
 lang: fr
+authors: 
+  - name: Guillaume Allègre
+    url: https://www.ofce.fr/pages-chercheurs/page.php?id=1
+    affiliation: OFCE 
+    affiliation-url: https://www.ofce.sciences-po.fr/
+  - name: François Geerolf
+    url: https://www.ofce.sciences-po.fr/pages-chercheurs/page.php?id=157
+    affiliation: OFCE 
+    affiliation-url: https://www.ofce.sciences-po.fr/
+  - name: Xavier Timbeau
+    url: https://www.ofce.sciences-po.fr/pages-chercheurs/page.php?id=37
+    affiliation: OFCE 
+    affiliation-url: https://www.ofce.sciences-po.fr/
 ---
 
 {{< include post.qmd >}}
