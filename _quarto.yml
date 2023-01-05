@@ -8,9 +8,11 @@ website:
     search: true
   navbar:
     logo: ofce.png
-    right:
-      - icon: rss
+    right: 
+      - text: EN
+        href: index_EN.qmd
       - href: https://www.ofce.sciences-po.fr/
+      - icon: rss
       - icon: rss
         href: index.xml
       - icon: github
@@ -23,8 +25,7 @@ format:
   html:
     theme:
       light: litera
-      dark: [litera, theme-dark.scss]
-    css: styles.css
+      dark: [darkly, theme-dark.scss]
 
 editor: visual
 
