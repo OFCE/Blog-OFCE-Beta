@@ -24,7 +24,7 @@ website:
 format:
   html:
     theme:
-      light: litera
+      light: simplex
       dark: [darkly, theme-dark.scss]
 
 editor: visual
