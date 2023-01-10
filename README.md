@@ -9,7 +9,7 @@ Le fonctionnement du blog repose sur la compilation de plusieurs de ces scripts 
 
 # Post de blog sous Quarto 
 La rédaction d'un post de blog se fait désormais intégralement sous ce format Quarto (extension .qmd), auquel est associé l'ensemble des fichiers et commandes qui en permettent la compilation pour produire sa version publiable.
-Une version *simple*[^1] qui combine du texte avec des images (figures et tableaux) de post se trouve [ici](), une autre, plus complexe, qui intègre des élements de code se trouve [là]. 
+Une version *simple*[^1] qui combine du texte avec des images (figures et tableaux) de post se trouve [ici](https://github.com/OFCE/Blog-OFCE-Beta/blob/main/posts/post_test/index.qmd), une autre, plus complexe, qui intègre des élements de code se trouve [là](https://github.com/OFCE/Blog-OFCE-Beta/blob/main/posts/post_test_2/post.qmd). 
 
 La structure du script se décompose en deux parties. 
 Une première qui est commune à l'ensemble des fichiers regroupe les *métadonnées* associées à chaque post, à savoir le titre du billet, son ou ses auteur.s, la langue, etc... (voir ci dessus le bloc de code) : 
