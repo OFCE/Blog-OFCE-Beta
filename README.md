@@ -2,10 +2,10 @@
 # Version du blog OFCE sous Quarto
 
 Le blog de l'OFCE va prochainement évoluer pour pouvoir intégrer de nouveaux types de contenus (comme des graphes interactifs), mais également s'inscrire dans un processus de publication simplifié.
-Il s'appuie sur l'éditeur de contenus scientifiques multi-langages [Quarto], qui lui même s'intègre à des Logiciels d'interfacage comme R Studio ou Visual Code Studio associé à une gestion de la relecture et de la publication qui elle se fera via [GitHub]
-Ses principes de fonctionnement découlent de ceux de Rmarkdown, et permettent notamment de concilier plusieurs types de contenus (texte, images, code, liens) au sein d'un même script qui peut intégrer  différents langages.
+Il s'appuie sur l'éditeur de contenus scientifiques multi-langages [Quarto](https://quarto.org/), qui lui même s'intègre à des Logiciels d'interfacage comme [R Studio](https://posit.co/download/rstudio-desktop/) ou Visual Code Studio (https://code.visualstudio.com/) associé à une gestion des circuits de relecture et de mise en ligne qui elles se feront intégralement via  l'espace [GitHub](https://github.com/OFCE) de l'[OFCE](https://www.ofce.sciences-po.fr/)
+Ses principes de fonctionnement découlent de ceux de [Markdown](https://www.markdownguide.org/), et permettent notamment de concilier plusieurs types de contenus (texte, images, code, liens) au sein d'un même script qui lui-même peut intégrer  différents langages.
 
-Le fonctionnement du blog repose sur la compilation de plusieurs de ces scripts qui s'articulent autour d'une page d'accueil et des différents posts qui l'alimente. 
+Le fonctionnement du blog repose sur la compilation de plusieurs de ces scripts qui s'articulent autour d'une page d'accueil et des différents posts qui l'alimente comme le montre la structure du dossier repository du blog (voir la structure de fichiers du repository). 
 
 # Post de blog sous Quarto 
 La rédaction d'un post de blog se fait désormais intégralement sous ce format Quarto (extension .qmd), auquel est associé l'ensemble des fichiers et commandes qui en permettent la compilation pour produire sa version publiable.
